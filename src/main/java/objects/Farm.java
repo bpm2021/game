@@ -1,19 +1,18 @@
 package objects;
 
 import java.awt.*;
-
-public class Home extends Building{
+public class Farm extends Building{
 
     Integer width = 80;
     Integer height = 40;
-    Integer x = 400;
-    Integer y = 400;
-    Color background = Color.green;
-    String name = "Home";
+    Integer x = 600;
+    Integer y = 200;
+    Color background = Color.red;
+    String name = "Farm";
 
     Integer level = 0;
 
-    public Home(){
+    public Farm(){
         super.width = width;
         super.height = height;
         super.x = x;
@@ -22,5 +21,6 @@ public class Home extends Building{
         super.name = name;
         super.level = level;
     }
+
 
 }

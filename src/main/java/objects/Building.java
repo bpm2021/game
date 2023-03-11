@@ -9,6 +9,21 @@ public class Building {
     protected Integer x;
     protected Integer y;
     protected Color background;
+    protected String name;
+    protected Integer level;
+
+    public Integer getLevel() {
+        return level;
+    }
+
+    public void setLevel(Integer level) {
+        this.level = level;
+    }
+
+    @Override
+    public String toString() {
+        return name;
+    }
 
     public Integer getX() {
         return x;

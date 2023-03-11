@@ -1,6 +1,7 @@
 package worlds;
 
 import objects.Building;
+import objects.Farm;
 import objects.Home;
 import objects.Office;
 
@@ -16,10 +17,12 @@ public class City {
 
     private Home home = new Home();
     private Office office = new Office();
+    private Farm farm = new Farm();
 
     public ArrayList<Building> getCityObjects() {
         cityObjects.add(home);
         cityObjects.add(office);
+        cityObjects.add(farm);
         return cityObjects;
     }
 
